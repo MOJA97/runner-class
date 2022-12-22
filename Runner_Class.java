@@ -105,7 +105,9 @@ public class Runner_Class extends Reusable_Methods{
 		ContinueBTN.click();
 		
 		screenshot("Order Summary");
-		
+		String currentUrl = driver.getCurrentUrl();
+		System.out.println(currentUrl);
 	}
+	
 
 }
